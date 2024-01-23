@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="reg_form">
+<h1>Форма регистрации</h1>
+
+<form action="register.php " method="post">
+<input type="hidden" name="id" value="123456">
+
+<ul class="reg_list">
+    <li>
+        <div class="reg_title">Имя:</div>
+        <input class="reg_input" type="text" name="fio" value="">
+    </li>
+
+    <li>
+        <div class="reg_title">Пол:</div>
+        <input  type="radio" name="sex" value="1" checked> M
+        <input  type="radio" name="sex" value="2" checked> Ж
+    </li>
+
+    <li>
+        <div class="reg_title">Город:</div>
+         <select class="reg_select" name="city">
+            <option value="1">Москва</option>
+            <option value="2">Питер</option>
+            <option value="3">Казань</option>
+            <option value="4">Уфа</option>
+            <option value="5">Самара</option>
+            <option value="6">Томск</option>
+        </select>
+    </li>
+
+    <li>
+        <div class="reg_title">Пароль</div>
+        <input class="reg_input" type="password" name="agree" value="">
+    </li>
+
+    <li>
+        <div class="reg_title">
+            <textarea name="descr" cols="40" rows="10">напишите что ни будь о себе</textarea>
+        </div>
+    </li>
+        <li>
+        <div class="reg_title">
+            <input type="checkbox" name="agree">
+            <span class="reg_agree">Регистрируясь, вы принимаете
+                пользовательское соглашение</span>
+        </div>
+    </li>
+
+
+        <div id="reg_control">
+        <div style="float: left"><input class="reg_button" type="submit" value="Зарегестрироваться"></div>
+        <div style="float: right"><input class="reg_button" type="submit" value="Очистить форму"></div>
+        </div>
+
+</ul>
+</form>
+</div>
+</body>
+</html>

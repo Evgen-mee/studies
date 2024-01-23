@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Tahoma;
+    color: #444;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#reg_form {
+    width: 350px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+ul.reg_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.reg_list li{
+    margin: 10px 0 10px 0;
+}
+
+.reg_title {
+    display: inline-block;
+    min-width: 100px;
+}
+
+input.reg_input {
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 16px;
+}
+
+input.reg_input:focus-visible {
+    border-bottom: 1px solid #FFDB4D;
+}
+
+.reg_select {
+    width: 230px;
+    font-size: 14px;
+    background: #FFF9B5;
+}
+
+.reg_agree {
+    font-size: 12px;
+}
+
+textarea {
+    font-size: 16px;
+    color: #640721;
+    max-width: 330px;
+    max-height: 100px;
+}
+
+#reg_control {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+input.reg_button {
+    background: #FFDB4D;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #FFCF11;
+    border-radius: 3px;
+
+
+}
