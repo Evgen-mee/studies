@@ -132,7 +132,3 @@
 # s1 = 'abc-de'.partition('-')
 # ('abc', '-', 'de')
 
-
-s = "AAAcD D"
-print(any(i.isdigit() for i in s))
-print(s.isalnum())
