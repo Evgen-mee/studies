@@ -36,5 +36,3 @@
 # result = any(map(lambda x: x % 2 == 0, numbers))
 
 
-
-

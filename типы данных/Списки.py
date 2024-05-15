@@ -72,5 +72,8 @@
 # можно добавлять в список [1,2,3,4,a if a > b else b]
 
 
+def reverse(st):
+    return " ".join(st.split()[::-1])
 
 
+print(reverse('yksffkiayijgrsiwqh gsefegwl iukqlerheoyrysupo  hqelauhetudeyyawjiqujurus fgyhwpgrqpig'))
