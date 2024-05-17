@@ -63,6 +63,6 @@
 # Counter({'i': 9, 's': '54'})
 
 
-
-
-
+from itertools import chain
+x ="123"
+print("".join(*chain.from_iterable(zip(x,x))))
