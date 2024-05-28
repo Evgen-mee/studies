@@ -57,8 +57,3 @@
 # match2 = pattern.match("Some words.", 5) # words
 
 
-import re
-pattern = re.compile(r'/b[a-z]+/b')
-mat = pattern.search(input(), pos=int(input()), endpos=int(input()))
-if mat:
-    print(mat[0])
