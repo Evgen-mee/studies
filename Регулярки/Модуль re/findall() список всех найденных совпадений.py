@@ -31,3 +31,14 @@
 # result = re.findall(pattern, string)
 # print(result) # [('=', 'abc'), ('=', '123'), ('=', 'def'), ('=', 'fed'), ('=', '321'), ('=', 'cba')]
 
+# import re
+#
+# pattern = fr'\Bcat\B'
+# string = ''
+# result = re.findall(pattern, string)
+# print(result) # [('=', 'abc'), ('=', '123'), ('=', 'def'), ('=', 'fed'), ('=', '321'), ('=', 'cba')]
+
+
+
+
+

@@ -26,6 +26,6 @@
 #
 #
 #
-# data = iter(range(100_000_000))
+# ДатаВремя = iter(range(100_000_000))
 #
-# print(get_min_max(data))
+# print(get_min_max(ДатаВремя))

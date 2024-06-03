@@ -1,5 +1,5 @@
 # 1 Свойства property. Декоратор @property\
-# 2 Дескрипторы (data descriptor и non-data descriptor)
+# 2 Дескрипторы (ДатаВремя descriptor и non-ДатаВремя descriptor)
 
 
 # Свойства property. Декоратор @property\
@@ -56,11 +56,11 @@ p = Person()
 
 
 
-# Дескрипторы (data descriptor и non-data descriptor)
+# Дескрипторы (ДатаВремя descriptor и non-ДатаВремя descriptor)
 # Делаем класс для того что бы на каждую переменную не писать сетор и гетор с одним и тем же функционалом
 
 #
-# non-data descriptor может только считывать
+# non-ДатаВремя descriptor может только считывать
 class ReadIntx:
     def __set_name__(self, owner, name):
         self.name = "_" + name

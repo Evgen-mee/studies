@@ -13,3 +13,5 @@
 #
 # print(re.fullmatch('\d', '111')) # None
 # print(re.fullmatch('\d', '1'))   # <re.Match object; span=(0, 1), match='1'>
+
+

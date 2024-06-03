@@ -99,5 +99,5 @@
 # x = list(map(datetime.strptime,dates, ('%d.%m.%Y',) * len(dates)))
 # print(x)
 
-# datetime.combine(date.min,data.time()) - datetime.min
+# datetime.combine(date.min,ДатаВремя.time()) - datetime.min
 # Приводит time к timedelta.

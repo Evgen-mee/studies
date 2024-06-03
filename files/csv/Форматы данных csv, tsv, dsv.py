@@ -29,19 +29,19 @@
 # а разделителем полей — символ запятой.
 #
 # with open('products.csv', encoding='utf-8') as file: #  вывидет csv строка = лист
-#     data = file.read()
-#     for line in data.splitlines():
+#     ДатаВремя = file.read()
+#     for line in ДатаВремя.splitlines():
 #         print(line.split(','))
 #
 #
 # with open('products.csv', encoding='utf-8') as file: #  вывидет  вложенный список (таблицу)
-#     data = file.read()
-#     table = [r.split(',') for r in data.splitlines()]
+#     ДатаВремя = file.read()
+#     table = [r.split(',') for r in ДатаВремя.splitlines()]
 #
 #
 # with open('products.csv', encoding='utf-8') as file:
-#     data = file.read()
-#     table = [r.split(',') for r in data.splitlines()]
+#     ДатаВремя = file.read()
+#     table = [r.split(',') for r in ДатаВремя.splitlines()]
 #     del table[0]                                        # удаляем заголовок
 #     table.sort(key=lambda item: int(item[1]))
 #     for line in table[:5]:
@@ -105,12 +105,12 @@
 #
 # import csv
 # columns = ['first_name', 'second_name', 'class_number', 'class_letter']
-# data = [['Тимур', 'Гуев', 11, 'А'], ['Руслан', 'Чаниев', 9, 'Б'], ['Артур', 'Харисов', 10, 'В']]
+# ДатаВремя = [['Тимур', 'Гуев', 11, 'А'], ['Руслан', 'Чаниев', 9, 'Б'], ['Артур', 'Харисов', 10, 'В']]
 
 # with open('students.csv', 'w', encoding='utf-8', newline='') as file:
 #     writer = csv.writer(file)
 #     writer.writerow(columns)                 # запись заголовков
-#     for row in data:                         # запись строк
+#     for row in ДатаВремя:                         # запись строк
 #         writer.writerow(row)
 #
 #

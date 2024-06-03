@@ -39,7 +39,7 @@
 # Блоки try-except можно вкладывать один в другой.
 # Python никак нас не ограничивает в количестве таких вложений.
 # try:
-#     file = open('data.txt', encoding='utf-8')
+#     file = open('ДатаВремя.txt', encoding='utf-8')
 #     try:
 #         text = file.read()
 #     finally:

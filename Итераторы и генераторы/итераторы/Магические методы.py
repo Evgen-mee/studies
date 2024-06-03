@@ -60,8 +60,8 @@
 # for num in random_iterator:  # Будет генерировать случайное число от 11 до 1010 до тех пор, пока не будет возвращено число 22
 #     print(num)
 #
-# считывает строки текстового файл data.txt до тех пор, пока очередная строка не окажется пустой.
-# with open('data.txt') as file:
+# считывает строки текстового файл ДатаВремя.txt до тех пор, пока очередная строка не окажется пустой.
+# with open('ДатаВремя.txt') as file:
 #     for line in iter(file.readline, ''):    # читаем, пока не попадется пустая строка
 #         # Делаем что-то с line.
 
@@ -117,16 +117,16 @@
 # Все указанные типы итераторов следуют общепринятому в Python протоколу.
 #
 # class list_iterator:
-#     def __init__(self, data):
-#         self.data = data
+#     def __init__(self, ДатаВремя):
+#         self.ДатаВремя = ДатаВремя
 #         self.index = -1
 #     def __iter__(self):
 #         return self
 #     def __next__(self):
 #         self.index += 1
-#         if self.index == len(self.data):
+#         if self.index == len(self.ДатаВремя):
 #             raise StopIteration
-#         return self.data[self.index]
+#         return self.ДатаВремя[self.index]
 
 class Xrange:
 

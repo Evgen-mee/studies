@@ -54,28 +54,28 @@
 # - skipkeys
 # позволяет игнорировать кортежи при записи в json
 # import json
-# data = {
+# ДатаВремя = {
 #         'beegeek': 2018,
 #         ('Timur', 'Guev'): 29,
 #         ('Arthur', 'Kharisov'): 20,
 #         'stepik': 2013
 #        }
-# json_data = json.dumps(data, skipkeys=True)        # преобразуем dict в json пропуская кортежи
+# json_data = json.dumps(ДатаВремя, skipkeys=True)        # преобразуем dict в json пропуская кортежи
 # print(json_data) == {"beegeek": 2018, "stepik": 2013} # записали без кортежей
 #
 #
 # если в словаре Python использовались числа, булевы значения или None,
 # то ошибки не будет, вместо этого они будут преобразованы в строки.
 # import json
-# data = {1: 'Timur', False: 'Arthur', None: 'Ruslan'}
-# json_data = json.dumps(data)
+# ДатаВремя = {1: 'Timur', False: 'Arthur', None: 'Ruslan'}
+# json_data = json.dumps(ДатаВремя)
 # print(json_data) == {"1": "Timur", "false": "Arthur", "null": "Ruslan"}
 
 
 #  - Кириллические символы в json
 # import json
-# data = {'firstName': 'Тимур', 'lastName': 'Гуев'}
-# s = json.dumps(data)
+# ДатаВремя = {'firstName': 'Тимур', 'lastName': 'Гуев'}
+# s = json.dumps(ДатаВремя)
 # print(s)
 # result = json.loads(s)
 # print(result)
@@ -85,8 +85,8 @@
 #
 # ensure_ascii функций dumps() и dump()
 # import json
-# data = {'firstName': 'Тимур', 'lastName': 'Гуев'}
-# s = json.dumps(data, ensure_ascii=False)           # задали не обязательный аргумент для корректной работы с кирилицей
+# ДатаВремя = {'firstName': 'Тимур', 'lastName': 'Гуев'}
+# s = json.dumps(ДатаВремя, ensure_ascii=False)           # задали не обязательный аргумент для корректной работы с кирилицей
 # print(s)
 # result = json.loads(s)
 # print(result)
