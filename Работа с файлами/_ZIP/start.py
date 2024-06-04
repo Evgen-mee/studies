@@ -28,7 +28,7 @@
 # with ZipFile('test.zip') as zip_file:
 #     zip_file.printdir()
 # Вывидет:
-# /usr/bin/python3 /home/jo/Документы/Studies/files/_ZIP/start.py
+# /usr/bin/python3 /home/jo/Документы/Studies/Работа с файлами/_ZIP/start.py
 # File Name                                             Modified             Size
 # test/                                          2021-11-27 12:47:10            0
 # test/Картинки/                                 2021-11-27 12:49:02            0
