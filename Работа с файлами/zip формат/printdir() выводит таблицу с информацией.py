@@ -12,7 +12,7 @@
 #     zip_file.printdir()
 
 # Вывидет:
-# /usr/bin/python3 /home/jo/Документы/Studies/Работа с файлами/zip формат/start.py
+# /usr/bin/python3 /home/jo/Документы/Studies/Работа с файлами/zip формат/1 pickle модуль.py
 # File Name                                             Modified             Size
 # test/                                          2021-11-27 12:47:10            0
 # test/Картинки/                                 2021-11-27 12:49:02            0
