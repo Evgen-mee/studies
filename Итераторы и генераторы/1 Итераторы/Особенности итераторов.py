@@ -4,7 +4,7 @@
 # positive_numbers = map(abs, numbers)     # создаем объект итератора
 # for num in positive_numbers:             # обходим итератор циклом for
 #     print(num)
-#
+
 # преобразования итератора в коллекцию
 # numbers = [-3, 6, 1, -90, 34, -25, 23, -21]
 # positive_numbers = map(abs, numbers)                 # создаем объект итератора

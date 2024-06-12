@@ -1,7 +1,7 @@
 # Конструкция yield from
 # синтаксическая конструкция yield from <iterable>
 # позволяет объединить две конструкции: yield и цикл for
-#
+
 # было:
 # def get_data():
 #    for num in range(5):
@@ -12,7 +12,7 @@
 # def get_data():
 #    yield from range(5)
 #    yield from 'ABC'
-#
+
 # Было:
 # def chain(*iterables):
 #    for it in iterables:
@@ -25,7 +25,8 @@
 # Применение:
 # for i in chain('AB', [1, 2], (4, 5), {'name': 'Timur', 'age': 29}):
 #     print(i, end=' ')
-#
+
+
 # конструкция yield from позволяет вкладывать один генератор в другой,
 # таким образом создавать субгенераторы (вложенные генераторы).
 #

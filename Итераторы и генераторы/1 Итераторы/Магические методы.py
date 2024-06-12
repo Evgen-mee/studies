@@ -128,34 +128,4 @@
 #             raise StopIteration
 #         return self.ДатаВремя[self.index]
 
-class Xrange:
-
-    def __init__(self, start, end, step=0):
-        self.flag = all(map(lambda x: type(x) == int ,(start, end, step)))
-        if self.flag:
-            self.res = iter(range(start, end, step))
-        else:
-            self.res = iter(range(int(start * 100), int(end * 100), int(step * 100)))
-
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        if self.flag:
-            return next(self.res)
-        return next(self.res) / 100
-
-
-xrange = Xrange(0, 3, 0.5)
-
-print(*xrange, sep='; ')
-
-
-
-
-evens = Xrange(0, 10, 2)
-
-print(*evens)
-
 
