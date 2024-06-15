@@ -41,25 +41,9 @@
 # print(cat.name)      # Кемаль
 
 
-class Scales:
-    def __init__(self):
-        self.scales_left = 0
-        self.scales_right = 0
 
-    def add_right(self, n):
-        self.scales_right += n
 
-    def add_left(self, n):
-        self.scales_left += n
 
-    def get_result(self):
-        if self.scales_left > self.scales_right:
-            return 'Левая чаша тяжелее'
-
-        if self.scales_right > self.scales_left:
-            return 'Правая чаша тяжелее'
-
-        return 'Весы в равновесии'
 
 
 
