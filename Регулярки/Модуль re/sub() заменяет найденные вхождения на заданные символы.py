@@ -77,9 +77,3 @@
 # text = input()
 # res_lambda = re.sub(regex, lambda m: (str(int(m[0]) // 3) if int(m[0]) % 3 == 0 else m[0]), text)
 # print(res_lambda)
-
-import re
-
-result = re.split(r'(\D+)', '1 + 2 - 3 * 4')
-
-print(result)
