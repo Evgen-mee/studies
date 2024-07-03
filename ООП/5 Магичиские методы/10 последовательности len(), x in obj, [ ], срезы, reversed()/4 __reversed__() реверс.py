@@ -29,3 +29,8 @@
 #
 # print(*order, sep=', ')           # банан, яблоко, лимон
 # print(*reversed(order), sep=', ') # лимон, яблоко, банан
+
+
+
+
+
