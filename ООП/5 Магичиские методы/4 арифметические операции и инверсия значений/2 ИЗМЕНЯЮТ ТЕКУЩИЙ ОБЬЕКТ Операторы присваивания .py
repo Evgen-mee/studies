@@ -49,36 +49,36 @@
 # print(bank)   # Вызов метода __iadd__()  # PiggyBank(20)
 
 
-class Time:
-
-    def __sum_hours(self, other):
-        hours = ((self.hours + other.hours) % 24) + ((self.minutes + other.minutes) // 60)
-        minutes = (self.minutes + other.minutes) % 60
-        return hours, minutes
-
-    def __init__(self, hours=0, minutes=0):
-        self.hours = hours % 24 + minutes // 60
-        self.minutes = minutes % 60
-
-    def __str__(self):
-        return f'{self.hours:>02}:{self.minutes:>02}'
-
-    def __add__(self, other):
-        if isinstance(other, self.__class__):
-            return self.__class__(*self.__sum_hours(other))
-        return NotImplemented
-
-    def __iadd__(self, other):
-        if isinstance(other, self.__class__):
-            self.hours, self.minutes = self.__sum_hours(other)
-            return self
-        return NotImplemented
-
-# TEST_9:
-t1 = Time(15, 50)
-t2 = Time(2, 20)
-print(t1 + t2)
-
-t1 += Time(2, 20)
-print(t1)
+# class Time:
+#
+#     def __sum_hours(self, other):
+#         hours = ((self.hours + other.hours) % 24) + ((self.minutes + other.minutes) // 60)
+#         minutes = (self.minutes + other.minutes) % 60
+#         return hours, minutes
+#
+#     def __init__(self, hours=0, minutes=0):
+#         self.hours = hours % 24 + minutes // 60
+#         self.minutes = minutes % 60
+#
+#     def __str__(self):
+#         return f'{self.hours:>02}:{self.minutes:>02}'
+#
+#     def __add__(self, other):
+#         if isinstance(other, self.__class__):
+#             return self.__class__(*self.__sum_hours(other))
+#         return NotImplemented
+#
+#     def __iadd__(self, other):
+#         if isinstance(other, self.__class__):
+#             self.hours, self.minutes = self.__sum_hours(other)
+#             return self
+#         return NotImplemented
+#
+# # TEST_9:
+# t1 = Time(15, 50)
+# t2 = Time(2, 20)
+# print(t1 + t2)
+#
+# t1 += Time(2, 20)
+# print(t1)
 
