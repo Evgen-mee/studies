@@ -39,3 +39,4 @@
 # abs_delta = abs(delta)
 # print('Исходная:', delta.days, delta.seconds, delta, sep='\n')
 # print('С модулем:', abs_delta.days, abs_delta.seconds, abs_delta, sep='\n')
+

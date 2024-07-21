@@ -38,3 +38,7 @@
 # delta4 = timedelta(minutes=300)                    # 5:00:00
 
 
+
+
+seconds = 3721
+print(f'{seconds // 3600}:{(seconds // 60) % 60}:{seconds // 360}')

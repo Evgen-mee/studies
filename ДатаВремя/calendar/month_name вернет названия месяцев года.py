@@ -9,9 +9,10 @@
 # выводит:
 # ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-
+# import calendar, locale
 # locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
 # russian_names = list(calendar.month_name)
 # print(russian_names)
 # выводит:
 # ['', 'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+

@@ -36,3 +36,7 @@
 # result = any(map(lambda x: x % 2 == 0, numbers))
 
 
+
+
+a, b, c = tuple(map(int, input()))
+print(('NO','YES')[a + b == c])
