@@ -23,3 +23,6 @@
 # print(letters.most_common()[-1])     # ('m', 1)
 # print(letters.most_common()[::-1])   # [('m', 1), ('p', 2), ('s', 4), ('i', 4)]
 # print(numbers.most_common()[-3:-1])  # [(6, 1), (3, 1)]
+
+_, l = input(), sorted(map(int, input().split()))
+print(*l)

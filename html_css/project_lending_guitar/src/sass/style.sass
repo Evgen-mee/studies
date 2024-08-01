@@ -1,0 +1,155 @@
+@import "normalizes"
+@import "resets"
+
+*
+  box-sizing: border-box
+
+$color-blue: #5290EA
+$color-orange: #F28B64
+
+.container
+  max-width: 1140px
+  margin: 0 auto
+
+
+.main-section
+  height: 800px
+  background: #F0F0F0
+  padding-top: 16px
+  &__nav-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    height: 69px
+    align-items: center
+  &__logo
+    width: 134px
+  &__content-container
+    position: relative
+    display: flex
+    flex-direction: row
+
+
+
+
+.nav-menu
+  &__list
+    display: flex
+    flex-direction: row
+  &__list-item
+    margin-right: 64px
+    font-size: 18px
+    &:last-child
+      margin-right: 0
+
+
+.left-wrapper
+  position: relative
+  &__img
+    position: relative
+    z-index: 5
+
+  &__rectangle-blue
+    position: absolute
+    top: 150px
+    left: -50px
+    width: 566px
+    height: 220px
+    background: $color-blue
+    border-radius: 100px
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+    transform: rotate(-64deg)
+    z-index: 2
+
+  &__rectangle-orange
+    position: absolute
+    top: 160px
+    left: -30px
+    width: 618px
+    height: 220px
+    background: $color-orange
+    border-radius: 100px
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+    transform: rotate(-51deg)
+    z-index: 3
+
+  &__rectangle-grey
+    position: absolute
+    top: 190px
+    left: 10px
+    width: 609px
+    height: 220px
+    background: #E2E2E2
+    border-radius: 100px
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+    transform: rotate(-36deg)
+    z-index: 1
+
+.right-wrapper
+  width: 372px
+  position: absolute
+  top: 150px
+  right: 76px
+
+  &__icons-box
+    margin-bottom: 1px
+    padding-left: 10px
+
+  &__title
+    margin-bottom: 5px
+
+  &__text
+    font-size: 16px
+    margin-bottom: 20px
+
+
+
+.icons
+  display: inline-flex
+  &__item
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 40px
+    height: 40px
+    border: 1px solid $color-blue
+    border-radius: 100px
+    margin-right: 17px
+  &:last-child
+    margin-right: 0
+    i
+      font-size: 21px
+
+
+.title
+  font-size: 72px
+  position: relative
+  &__hr
+    width: 65px
+    position: absolute
+    bottom: 0
+    margin: 0
+    border: none
+    border-top: 1px solid black
+
+.buttons
+  display: inline-flex
+  &__main-btn
+    margin-right: 32px
+    width: 200px
+    height: 60px
+    background: $color-orange
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+    border-radius: 100px
+    border: none
+    font-size: 18px
+    color: white
+  &__icon-btn
+    display: inline-flex
+    align-items: center
+    img
+      margin-right: 12px
+  &__text
+    font-size: 16px
+
+

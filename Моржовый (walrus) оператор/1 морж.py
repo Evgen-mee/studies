@@ -27,4 +27,3 @@
 # при записи в лист
 # f_data = [test(x) for x in data if test(x) != 4]
 
-print('Good' if input().lower().strip('ь')[0] == input().lower()[0] else 'Bad')

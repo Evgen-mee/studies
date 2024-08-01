@@ -48,7 +48,7 @@
 # 25
 # 36
 # A
-# * * * * *
+#
 
 
 # В отличие от генераторных выражений,
@@ -115,4 +115,13 @@
 # qubes = [1, 8, 27]
 #
 # print(*interleave(numbers, squares, qubes))
+numbers = list(map(int, input().split()))
+n = int(input())
+flag = True
+for i, j in enumerate(numbers):
+    if j == n:
+        flag = False
+        print(i)
+        break
 
+if flag: print('ErrorValue')
