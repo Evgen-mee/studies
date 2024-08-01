@@ -239,7 +239,7 @@
 # что бы использовать css в html в заголовке
 # указываем путь к css файлу в котором прописанна вся визуальная
 # настройка страницы
-# <link type="text/css" href="css/style.css" rel="stylesheet">
+# <link type="text/css" href="css/style.scss" rel="stylesheet">
 
 # можно импортитровать один css в другой
 # @import url("/css/main.css");
