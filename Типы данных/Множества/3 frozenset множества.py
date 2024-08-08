@@ -32,3 +32,4 @@
 # frozenset - set
 # frozenset ^ set
 # результат - неизменяемое множество
+

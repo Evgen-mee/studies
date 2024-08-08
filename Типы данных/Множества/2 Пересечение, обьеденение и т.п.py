@@ -70,7 +70,7 @@
 # на выходе получаем множество НЕ совпадающих элементов
 # c = b{4,5,6,7,8,} ^  a{1,2,4} итого с = {1,2,5,6,7,8}
 # или
-# метод symmetric_difference()
+# метод symmetric_difference()u
 # myset1 = {1, 2, 3, 4, 5}
 # myset2 = {3, 4, 6, 7, 8}
 # myset3 = myset1.symmetric_difference(myset2) = {1, 2, 5, 6, 7, 8}
@@ -81,11 +81,6 @@
 # myset2 = {3, 4, 6, 7, 8}
 # myset1.symmetric_difference_update(myset2)      # изменяем множество myset1
 # myset1 = {1, 2, 5, 6, 7, 8}
-
-
-
-
-
 
 
 
