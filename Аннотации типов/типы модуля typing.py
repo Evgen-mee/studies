@@ -52,3 +52,4 @@
 #
 # аннотировать *args и **kwargs
 # def foo(*args: str, **kwds: int):
+

@@ -20,4 +20,3 @@
 #     case command: # создали переменную command в которую записано значение cmd
 #         print(f"Завершили проверку в match cmd {command}")
 
-

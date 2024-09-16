@@ -28,3 +28,4 @@
 # cat = Cat()
 # print(getattr(cat, 'night_vision'))   # True
 # print(getattr(cat, 'paws_count'))     # 4
+

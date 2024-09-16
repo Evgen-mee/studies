@@ -28,5 +28,3 @@
 # print(counter1)                     # Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
 # print(counter2)                     # Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
 
-from collections import Counter
-print(Counter(sorted(map(int, input()))).items(), sep='\n')

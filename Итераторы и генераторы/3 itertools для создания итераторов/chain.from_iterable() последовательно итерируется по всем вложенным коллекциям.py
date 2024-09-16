@@ -19,3 +19,6 @@
 # A B C D E F
 # 0 A 1 B 2 C
 # T i m u r 2 9 M a l e T e a c h e r
+
+def calculate(x, y, operation = 'a'):
+    match
